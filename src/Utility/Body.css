@@ -1,0 +1,26 @@
+.container {
+    padding: 1%;
+    /* background: rgb(66, 66, 66); */
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    height: fit-content;
+    
+}
+
+.indexContainer {
+    display: flex;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+p {
+    font-size: medium;
+    text-shadow: none;
+}
+
+.custom-btn-height {
+    height: 40px; 
+}
