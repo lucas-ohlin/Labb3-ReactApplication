@@ -24,3 +24,19 @@ p {
 .custom-btn-height {
     height: 40px; 
 }
+
+#idSearch {
+    width: 200px;
+}
+
+#titleSearch {
+    width: 200px;
+}
+
+#clearSearch {
+    width: 200px;
+}
+
+#addBook {
+    width: 200px;
+}

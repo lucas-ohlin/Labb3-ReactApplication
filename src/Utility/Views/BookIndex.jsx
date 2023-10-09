@@ -32,11 +32,12 @@ function BookIndex({ filter }) {
         <table className="table">
             <thead>
                 <tr>
-                    <th>Id</th>
+                    {/* <th>Id</th> */}
                     <th>Title</th>
                     <th>Author</th>
 					<th>Genre</th>
                     <th>Description</th>
+                    <th>Year</th>
                     <th>Loanable</th>
                     <th>Actions</th>
                 </tr>
@@ -44,11 +45,12 @@ function BookIndex({ filter }) {
             <tbody>
                 {bookFilter(books).map((data) => (
                     <tr key={data.id}>
-                        <td>{data.id}</td>
+                        {/* <td>{data.id}</td> */}
                         <td>{data.title}</td>
                         <td>{data.author}</td>
                         <td>{data.genre}</td>
                         <td>{data.description}</td>
+                        <td>{data.year}</td>
                         <td>{data.isLoanAble ? "Yes" : "No"}</td>
                         <td>
                             <div className="d-flex">

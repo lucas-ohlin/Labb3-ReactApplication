@@ -49,7 +49,7 @@ function Body() {
                         </div>
                         <div className="row mb-3">
                             <div>
-                                <div className="col-md-6">
+                                <div className="row mb-3 justify-content-center">
                                     <button id="idSearch" className="btn btn-primary me-2" type="button" onClick={() => handleFilter({ text: input, type: "id" })}>
                                         Search by Id
                                     </button>
